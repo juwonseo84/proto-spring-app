@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAppController {
     @GetMapping("/version")
     public ResponseEntity<?> version() {
-        return new ResponseEntity<>("in-soft-0.0.1ls",HttpStatus.OK);
+        return new ResponseEntity<>("in-soft-0.0.1",HttpStatus.OK);
     }
-    @GetMapping("/version/cloud-pc")
-    public ResponseEntity<?> versionCloudPc() {
-        return new ResponseEntity<>("in-soft-cloud-pc",HttpStatus.OK);
-    }
+//    @GetMapping("/version/cloud-pc")
+//    public ResponseEntity<?> versionCloudPc() {
+//        return new ResponseEntity<>("in-soft-cloud-pc",HttpStatus.OK);
+//    }
 }
