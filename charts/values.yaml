@@ -2,7 +2,7 @@
 replicaCount: 3
 image:
   repository: "seojuwon/proto-spring-app"
-  tag: "0.0.1"
+  tag: "0.0.3"
   pullPolicy: "IfNotPresent"
 service:
   type: "NodePort"
