@@ -1,12 +1,10 @@
+---
 replicaCount: 3
-
 image:
-  repository: seojuwon/proto-spring-app
-  tag: "1.0.1"
-  pullPolicy: IfNotPresent
-
+  repository: "seojuwon/proto-spring-app"
+  tag: "0.0.1"
+  pullPolicy: "IfNotPresent"
 service:
-  type: NodePort
+  type: "NodePort"
   port: 8091
-
-namespace: proto
+namespace: "proto"
